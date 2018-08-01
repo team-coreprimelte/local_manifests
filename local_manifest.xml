@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Device repos -->
+    <!-- coreprimelte -->
+    <project path="device/samsung/fortunaxx-common" name="team-coreprimelte/android_device_samsung_fortunaxx-common" revision="cm-12.1" />
+    <project path="device/samsung/fortunave3g" name="/team-coreprimelte/android_device_samsung_fortunave3g" revision="cm-12.1" />
+
+    <!-- Kernels -->
+    <project path="kernel/samsung/fortunaxx" name="team-coreprimelte/android_kernel_samsung_msm8916" revision="cm-12.1" />
+
+    <!-- Vendors -->
+    <project path="vendor/samsung/fortunaxx-common" name="team-coreprimelte/android_vendor_samsung_fortunaxx-common" revision="cm-12.1" />
+    <project path="vendor/samsung/fortunave3g" name="team-coreprimelte/android_vendor_samsung_fortunave3g" revision="cm-12.1" />
+
+    <!-- Common device repos -->
+    <project path="device/qcom/common" name="lineageOS/android_device_qcom_common" revision="cm-12.1" />
+    <project path="device/samsung/qcom-common" name="lineageOS/android_device_samsung_qcom-common" revision="cm-12.1" />
+
+    <!-- Hardware -->
+    <project path="external/mm-dash" name="lineageOS/android_external_mm-dash" revision="cm-12.1" />
+    <project path="hardware/qcom/fm" name="lineageOS/android_hardware_qcom_fm" revision="cm-12.1" />
+    <project path="hardware/samsung" name="lineageOS/android_hardware_samsung" revision="cm-12.1" />
+</manifest>
